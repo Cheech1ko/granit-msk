@@ -44,6 +44,16 @@ a { text-decoration: none; color: inherit; }
     gap: clamp(8px, 2vw, 16px);
     flex-wrap: wrap;
 }
+.topbar-right .phone {
+    opacity: 1;
+    padding-right: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+}
+.topbar-right .phone:hover {
+    color: var(--gold-light);
+}
 .topbar-contacts { display: flex; gap: clamp(12px, 2vw, 24px); align-items: center; flex-wrap: wrap; }
 .topbar-contacts a { color: rgba(255,255,255,0.8); transition: color .2s; }
 .topbar-contacts a:hover { color: var(--gold-light); }
