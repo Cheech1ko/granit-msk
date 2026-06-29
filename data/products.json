@@ -1,338 +1,1089 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "Вертикальный «Классик»",
     "category": "vertical",
     "price": 18000,
     "basePrice": 18000,
-    "imageIcon": "mountain",
+    "photoURL": "img/products/0001.jpg",
     "badge": "Хит",
     "popular": true,
-    "sizes": [{ "label": "120×60 см", "price": 0 }, { "label": "150×75 см", "price": 4000 }, { "label": "180×90 см", "price": 8000 }],
-    "materials": [{ "label": "Гранит габбро", "price": 0 }, { "label": "Гранит красный", "price": 3000 }, { "label": "Мрамор белый", "price": 5000 }],
-    "services": [{ "label": "Полировка", "price": 2000 }, { "label": "Гравировка портрета", "price": 3500 }, { "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Стандартная вертикальная стела из чёрного гранита. Полировка, гравировка портрета и надписи включена."
+    "sortOrder": 1,
+    "description": "Стандартная вертикальная стела из чёрного гранита. Лаконичный дизайн, полировка с двух сторон, гравировка портрета и надписей включена.",
+    "components": ["stela-001", "tumba-std"],
+    "sizes": [
+      {"label": "120×60 см", "price": 0},
+      {"label": "150×75 см", "price": 4000},
+      {"label": "180×90 см", "price": 8000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Гранит красный", "price": 3000},
+      {"label": "Мрамор белый", "price": 5000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Серый", "price": 0},
+      {"label": "Красный", "price": 2000}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Портрет", "price": 3500},
+      {"label": "Текст + эпитафия", "price": 1500},
+      {"label": "Орнамент", "price": 2500}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0},
+      {"label": "Шлифовка", "price": 1500},
+      {"label": "Матовая", "price": 1000}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000},
+      {"label": "Демонтаж старого памятника", "price": 3000}
+    ]
   },
   {
-    "id": 2,
-    "name": "Вертикальный «Резной»",
-    "category": "carved",
-    "price": 28000,
-    "basePrice": 28000,
-    "imageIcon": "mountain",
+    "id": "2",
+    "name": "Вертикальный «Арка»",
+    "category": "vertical",
+    "price": 22000,
+    "basePrice": 22000,
+    "photoURL": "img/products/0121.jpg",
     "badge": null,
     "popular": true,
-    "sizes": [{ "label": "130×65 см", "price": 0 }, { "label": "160×80 см", "price": 5000 }],
-    "materials": [{ "label": "Гранит красный", "price": 0 }, { "label": "Гранит габбро", "price": 2000 }],
-    "services": [{ "label": "Полировка", "price": 2000 }, { "label": "Гравировка портрета", "price": 3500 }, { "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Вертикальная стела с художественной резьбой. Красный гранит, полировка с двух сторон."
+    "sortOrder": 2,
+    "description": "Вертикальная стела с аркообразным верхом. Полировка, фацет по периметру. Классический православный стиль.",
+    "components": ["stela-121", "tumba-std"],
+    "sizes": [
+      {"label": "120×60 см", "price": 0},
+      {"label": "150×75 см", "price": 4000},
+      {"label": "180×90 см", "price": 8000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Гранит серый", "price": 1500},
+      {"label": "Гранит красный", "price": 3000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Серый", "price": 0}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Портрет", "price": 3500},
+      {"label": "Текст + эпитафия", "price": 1500}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0},
+      {"label": "Шлифовка", "price": 1500}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000},
+      {"label": "Демонтаж старого памятника", "price": 3000}
+    ]
   },
   {
-    "id": 3,
+    "id": "3",
     "name": "Вертикальный «Элит»",
     "category": "vertical",
     "price": 42000,
     "basePrice": 42000,
-    "imageIcon": "mountain",
+    "photoURL": "img/products-img/0005.jpg",
     "badge": "Премиум",
     "popular": false,
-    "sizes": [{ "label": "150×80 см", "price": 0 }, { "label": "180×100 см", "price": 6000 }],
-    "materials": [{ "label": "Гранит габбро", "price": 0 }, { "label": "Гранит красный", "price": 4000 }],
-    "services": [{ "label": "Полировка", "price": 2000 }, { "label": "Гравировка портрета", "price": 3500 }, { "label": "Художественная резьба", "price": 7000 }, { "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Вертикальная стела из гранита высшего сорта с художественной резьбой и полировкой."
+    "sortOrder": 3,
+    "description": "Вертикальная стела из гранита высшего сорта. Фигурный силуэт, полировка с двух сторон, фацет. Под заказ — резьба и золочение.",
+    "components": ["stela-005", "tumba-premium"],
+    "sizes": [
+      {"label": "150×80 см", "price": 0},
+      {"label": "180×100 см", "price": 6000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Гранит красный", "price": 4000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Красный", "price": 2000}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Портрет", "price": 3500},
+      {"label": "Художественная резьба", "price": 7000}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0},
+      {"label": "Золочение", "price": 5000}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000},
+      {"label": "Демонтаж старого памятника", "price": 3000}
+    ]
   },
   {
-    "id": 4,
+    "id": "v4",
     "name": "Вертикальный «Стела»",
     "category": "vertical",
-    "price": 22000,
-    "basePrice": 22000,
-    "imageIcon": "mountain",
+    "price": 20000,
+    "basePrice": 20000,
+    "photoURL": "img/products-img/4.jpg",
     "badge": null,
     "popular": false,
-    "sizes": [{ "label": "120×50 см", "price": 0 }, { "label": "150×60 см", "price": 3000 }],
-    "materials": [{ "label": "Гранит серый", "price": 0 }, { "label": "Гранит габбро", "price": 2000 }],
-    "services": [{ "label": "Полировка", "price": 2000 }, { "label": "Гравировка портрета", "price": 3500 }, { "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Строгая вертикальная стела без лишних деталей. Лаконичный дизайн, полированная поверхность."
+    "sortOrder": 4,
+    "description": "Строгая вертикальная стела без лишних деталей. Лаконичный дизайн, полированная поверхность. Отличный выбор для тех, кто ценит минимализм.",
+    "components": ["stela-001", "tumba-std"],
+    "sizes": [
+      {"label": "100×50 см", "price": 0},
+      {"label": "120×60 см", "price": 3000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Гранит серый", "price": 1500}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Серый", "price": 0}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Портрет", "price": 3500}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0},
+      {"label": "Шлифовка", "price": 1500}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000}
+    ]
   },
   {
-    "id": 5,
-    "name": "Горизонтальный «Стандарт»",
-    "category": "horizontal",
-    "price": 16000,
-    "basePrice": 16000,
-    "imageIcon": "mountain",
+    "id": "v5",
+    "name": "Вертикальный «Модерн»",
+    "category": "vertical",
+    "price": 25000,
+    "basePrice": 25000,
+    "photoURL": "img/products/v5.jpg",
     "badge": null,
     "popular": false,
-    "sizes": [{ "label": "100×60 см", "price": 0 }, { "label": "120×70 см", "price": 3000 }],
-    "materials": [{ "label": "Гранит габбро", "price": 0 }, { "label": "Гранит серый", "price": 1500 }],
-    "services": [{ "label": "Полировка", "price": 2000 }, { "label": "Гравировка портрета", "price": 3500 }, { "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Горизонтальная стела. Подходит для одного или двух захоронений."
+    "sortOrder": 5,
+    "description": "Вертикальная стела с фигурными гранями. Комбинация полировки и шлифовки. Современный стиль, высокая детализация силуэта.",
+    "components": ["stela-270", "tumba-std"],
+    "sizes": [
+      {"label": "130×70 см", "price": 0},
+      {"label": "160×85 см", "price": 5000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Гранит красный", "price": 4000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Красный", "price": 2000}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Портрет", "price": 3500},
+      {"label": "Орнамент", "price": 2500}
+    ],
+    "finishes": [
+      {"label": "Полировка + шлифовка", "price": 0},
+      {"label": "Золочение", "price": 5000}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000},
+      {"label": "Демонтаж старого памятника", "price": 3000}
+    ]
   },
+
   {
-    "id": 6,
-    "name": "Горизонтальный «Резной»",
+    "id": "4",
+    "name": "Резной «Цветок»",
     "category": "carved",
-    "price": 24000,
-    "basePrice": 24000,
-    "imageIcon": "mountain",
+    "price": 28000,
+    "basePrice": 28000,
+    "photoURL": "img/products/0200цв.jpg",
+    "badge": null,
+    "popular": true,
+    "sortOrder": 6,
+    "description": "Фигурная стела из белого мрамора с резным цветочным силуэтом. Нежный дизайн, ручная работа.",
+    "components": ["stela-200", "tumba-marble"],
+    "sizes": [
+      {"label": "120×65 см", "price": 0},
+      {"label": "150×80 см", "price": 5000}
+    ],
+    "materials": [
+      {"label": "Мрамор белый", "price": 0},
+      {"label": "Мрамор серый", "price": 2000},
+      {"label": "Гранит красный", "price": 4000}
+    ],
+    "colors": [
+      {"label": "Белый", "price": 0},
+      {"label": "Серый", "price": 0}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Портрет", "price": 3500},
+      {"label": "Художественная резьба", "price": 6000}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0},
+      {"label": "Матовая", "price": 1000}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000}
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Резной «Фигурный»",
+    "category": "carved",
+    "price": 35000,
+    "basePrice": 35000,
+    "photoURL": "img/products/0204.jpg",
+    "badge": "Арт",
+    "popular": true,
+    "sortOrder": 7,
+    "description": "Фигурная чёрная стела с резным силуэтом и фацетом по периметру. Индивидуальный дизайн, высокая детализация.",
+    "components": ["stela-204", "tumba-std"],
+    "sizes": [
+      {"label": "130×70 см", "price": 0},
+      {"label": "160×85 см", "price": 6000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Гранит красный", "price": 4000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Красный", "price": 2000}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Портрет", "price": 3500},
+      {"label": "Художественная резьба", "price": 7000}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0},
+      {"label": "Золочение", "price": 5000}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000},
+      {"label": "Демонтаж старого памятника", "price": 3000}
+    ]
+  },
+  {
+    "id": "c3",
+    "name": "Резной «Классика»",
+    "category": "carved",
+    "price": 30000,
+    "basePrice": 30000,
+    "photoURL": "img/products/c3.jpg",
     "badge": null,
     "popular": false,
-    "sizes": [{ "label": "110×65 см", "price": 0 }, { "label": "140×80 см", "price": 4000 }],
-    "materials": [{ "label": "Гранит красный", "price": 0 }, { "label": "Гранит габбро", "price": 2000 }],
-    "services": [{ "label": "Полировка", "price": 2000 }, { "label": "Гравировка портрета", "price": 3500 }, { "label": "Художественная резьба", "price": 5000 }, { "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Горизонтальная стела с художественной резьбой и полировкой."
+    "sortOrder": 8,
+    "description": "Горизонтальная стела с художественной резьбой и полировкой. Элегантный дизайн, подходит для семейных захоронений.",
+    "components": ["stela-204", "tumba-wide"],
+    "sizes": [
+      {"label": "140×80 см", "price": 0},
+      {"label": "170×100 см", "price": 5000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Гранит красный", "price": 3000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Красный", "price": 2000}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Портрет", "price": 3500},
+      {"label": "Художественная резьба", "price": 6000}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0},
+      {"label": "Золочение", "price": 5000}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000}
+    ]
   },
+
   {
-    "id": 7,
-    "name": "Горизонтальный «Семейный»",
-    "category": "horizontal",
-    "price": 32000,
-    "basePrice": 32000,
-    "imageIcon": "mountain",
-    "badge": "Семейный",
-    "popular": false,
-    "sizes": [{ "label": "150×80 см", "price": 0 }, { "label": "180×100 см", "price": 5000 }],
-    "materials": [{ "label": "Гранит габбро", "price": 0 }, { "label": "Мрамор белый", "price": 6000 }],
-    "services": [{ "label": "Полировка", "price": 2000 }, { "label": "Гравировка портретов (2 шт)", "price": 6000 }, { "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Горизонтальный памятник для двоих захоронений с двумя портретами."
-  },
-  {
-    "id": 8,
+    "id": "8",
     "name": "Двойной «Классик»",
     "category": "double",
     "price": 36000,
     "basePrice": 36000,
-    "imageIcon": "mountain",
+    "photoURL": "img/products/d1.jpg",
     "badge": "Двойной",
     "popular": true,
-    "sizes": [{ "label": "120×100 см", "price": 0 }, { "label": "150×120 см", "price": 5000 }],
-    "materials": [{ "label": "Гранит габбро", "price": 0 }, { "label": "Гранит серый", "price": 2000 }],
-    "services": [{ "label": "Полировка", "price": 2000 }, { "label": "Гравировка портретов (2 шт)", "price": 6000 }, { "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Памятник для двоих захоронений. Широкая стела с двумя портретами и двумя надписями."
+    "sortOrder": 9,
+    "description": "Памятник для двоих захоронений. Широкая стела с двумя портретами и двумя надписями.",
+    "components": ["stela-dbl-001", "tumba-wide"],
+    "sizes": [
+      {"label": "120×100 см", "price": 0},
+      {"label": "150×120 см", "price": 5000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Гранит серый", "price": 2000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Серый", "price": 0}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Два портрета", "price": 6000},
+      {"label": "Два портрета + эпитафия", "price": 7500}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000},
+      {"label": "Демонтаж старого памятника", "price": 3000}
+    ]
   },
   {
-    "id": 9,
-    "name": "Двойной «Резной»",
-    "category": "carved",
-    "price": 45000,
-    "basePrice": 45000,
-    "imageIcon": "mountain",
+    "id": "d2",
+    "name": "Двойной «Арка»",
+    "category": "double",
+    "price": 40000,
+    "basePrice": 40000,
+    "photoURL": "img/products/d2.jpg",
     "badge": "Двойной",
     "popular": false,
-    "sizes": [{ "label": "140×120 см", "price": 0 }, { "label": "160×140 см", "price": 6000 }],
-    "materials": [{ "label": "Гранит красный", "price": 0 }, { "label": "Гранит габбро", "price": 3000 }],
-    "services": [{ "label": "Полировка", "price": 2000 }, { "label": "Гравировка портретов (2 шт)", "price": 6000 }, { "label": "Художественная резьба", "price": 8000 }, { "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Двойной памятник с художественной резьбой и индивидуальным дизайном."
+    "sortOrder": 10,
+    "description": "Двойной памятник с аркообразным верхом. Широкая стела с двумя портретами, фацет по периметру.",
+    "components": ["stela-dbl-001", "tumba-wide"],
+    "sizes": [
+      {"label": "130×110 см", "price": 0},
+      {"label": "160×130 см", "price": 6000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Гранит красный", "price": 4000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Красный", "price": 2000}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Два портрета", "price": 6000}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0},
+      {"label": "Золочение", "price": 5000}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000}
+    ]
   },
+
   {
-    "id": 10,
-    "name": "Мраморный «Классик»",
-    "category": "marble",
-    "price": 14000,
-    "basePrice": 14000,
-    "imageIcon": "archway",
-    "badge": null,
-    "popular": true,
-    "sizes": [{ "label": "100×50 см", "price": 0 }, { "label": "120×60 см", "price": 3000 }],
-    "materials": [{ "label": "Мрамор белый", "price": 0 }, { "label": "Мрамор чёрный", "price": 2000 }],
-    "services": [{ "label": "Полировка", "price": 2000 }, { "label": "Гравировка портрета", "price": 3500 }, { "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Традиционная вертикальная стела из белого мрамора. Полировка, гравировка."
-  },
-  {
-    "id": 11,
-    "name": "Мраморный «Резной»",
-    "category": "carved",
-    "price": 22000,
-    "basePrice": 22000,
-    "imageIcon": "archway",
+    "id": "6",
+    "name": "С крестом «Православный»",
+    "category": "cross",
+    "price": 32000,
+    "basePrice": 32000,
+    "photoURL": "img/products-img/0253.jpg",
     "badge": null,
     "popular": false,
-    "sizes": [{ "label": "110×55 см", "price": 0 }, { "label": "130×65 см", "price": 4000 }],
-    "materials": [{ "label": "Мрамор белый", "price": 0 }, { "label": "Мрамор чёрный", "price": 2000 }],
-    "services": [{ "label": "Полировка", "price": 2000 }, { "label": "Гравировка портрета", "price": 3500 }, { "label": "Художественная резьба", "price": 5000 }, { "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Мраморная стела с художественной резьбой и полировкой."
+    "sortOrder": 11,
+    "description": "Фигурная стела с объёмным православным крестом. Фацет, полировка, возможна гравировка молитвы или иконы.",
+    "components": ["stela-253", "tumba-std"],
+    "sizes": [
+      {"label": "140×70 см", "price": 0},
+      {"label": "170×85 см", "price": 5000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Гранит красный", "price": 3500}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Красный", "price": 2000}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Портрет", "price": 3500},
+      {"label": "Икона (гравировка)", "price": 4500},
+      {"label": "Молитва (текст)", "price": 1500}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0},
+      {"label": "Золочение", "price": 5000}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000},
+      {"label": "Демонтаж старого памятника", "price": 3000}
+    ]
   },
   {
-    "id": 12,
-    "name": "Мраморный «Элит»",
-    "category": "marble",
+    "id": "cr2",
+    "name": "С крестом «Голгофа»",
+    "category": "cross",
     "price": 38000,
     "basePrice": 38000,
-    "imageIcon": "archway",
-    "badge": "Премиум",
+    "photoURL": "img/products-img/52082.jpg",
+    "badge": null,
     "popular": false,
-    "sizes": [{ "label": "140×70 см", "price": 0 }, { "label": "160×80 см", "price": 5000 }],
-    "materials": [{ "label": "Мрамор белый", "price": 0 }, { "label": "Мрамор чёрный", "price": 3000 }],
-    "services": [{ "label": "Полировка", "price": 2000 }, { "label": "Гравировка портрета", "price": 3500 }, { "label": "Художественная резьба", "price": 7000 }, { "label": "Золочение", "price": 5000 }, { "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Мраморный памятник премиум-класса с художественной резьбой и золочение."
+    "sortOrder": 12,
+    "description": "Стела с рельефным изображением Голгофского креста. Детализированная резьба, полировка, фацет.",
+    "components": ["stela-253", "tumba-premium"],
+    "sizes": [
+      {"label": "150×75 см", "price": 0},
+      {"label": "180×90 см", "price": 6000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Гранит красный", "price": 4000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Красный", "price": 2000}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Портрет", "price": 3500},
+      {"label": "Икона (гравировка)", "price": 4500}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0},
+      {"label": "Золочение", "price": 5000}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000}
+    ]
+  },
+
+  {
+    "id": "7",
+    "name": "Комбинированный «Модерн»",
+    "category": "combined",
+    "price": 38000,
+    "basePrice": 38000,
+    "photoURL": "img/products/0270п.jpg",
+    "badge": null,
+    "popular": true,
+    "sortOrder": 13,
+    "description": "Стела с фигурными гранями, комбинация полировки и шлифовки. Современный стиль, высокая детализация силуэта.",
+    "components": ["stela-270", "tumba-std"],
+    "sizes": [
+      {"label": "130×70 см", "price": 0},
+      {"label": "160×85 см", "price": 5000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Гранит красный", "price": 4000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Красный", "price": 2000}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Портрет", "price": 3500},
+      {"label": "Орнамент", "price": 2500}
+    ],
+    "finishes": [
+      {"label": "Полировка + шлифовка", "price": 0},
+      {"label": "Золочение", "price": 5000}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000},
+      {"label": "Демонтаж старого памятника", "price": 3000}
+    ]
+  },
+
+  {
+    "id": "9",
+    "name": "Комплекс «Семейный»",
+    "category": "complex",
+    "price": 85000,
+    "basePrice": 85000,
+    "photoURL": "img/products/comp1.jpg",
+    "badge": "Комплекс",
+    "popular": true,
+    "sortOrder": 14,
+    "description": "Полный комплекс под ключ: стела, тумба, ограда, цоколь, цветник. Включая установку.",
+    "components": ["stela-001", "tumba-std", "comp-fence-std", "comp-socle-std", "comp-flowerbed"],
+    "sizes": [
+      {"label": "200×150 см", "price": 0},
+      {"label": "250×200 см", "price": 12000}
+    ],
+    "materials": [
+      {"label": "Гранит + металл", "price": 0},
+      {"label": "Гранит + кованый металл", "price": 8000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0}
+    ],
+    "engravings": [
+      {"label": "Портрет", "price": 3500},
+      {"label": "Два портрета", "price": 6000}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0},
+      {"label": "Золочение", "price": 5000}
+    ],
+    "services": [
+      {"label": "Установка под ключ", "price": 10000},
+      {"label": "Доставка по Москве", "price": 2000},
+      {"label": "Демонтаж старого памятника", "price": 3000}
+    ]
   },
   {
-    "id": 13,
+    "id": "comp2",
+    "name": "Комплекс «Минимал»",
+    "category": "complex",
+    "price": 55000,
+    "basePrice": 55000,
+    "photoURL": "img/products/comp2.jpg",
+    "badge": null,
+    "popular": false,
+    "sortOrder": 15,
+    "description": "Комплекс из стелы, тумбы и гранитного цоколя. Минималистичный дизайн, подходит для небольших участков.",
+    "components": ["stela-001", "tumba-std", "comp-socle-std"],
+    "sizes": [
+      {"label": "150×120 см", "price": 0},
+      {"label": "200×150 см", "price": 8000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Гранит красный", "price": 4000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Красный", "price": 2000}
+    ],
+    "engravings": [
+      {"label": "Портрет", "price": 3500},
+      {"label": "Орнамент", "price": 2500}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0},
+      {"label": "Шлифовка", "price": 1500}
+    ],
+    "services": [
+      {"label": "Установка под ключ", "price": 8000},
+      {"label": "Доставка по Москве", "price": 2000}
+    ]
+  },
+
+  {
+    "id": "h1",
+    "name": "Горизонтальный «Стандарт»",
+    "category": "horizontal",
+    "price": 16000,
+    "basePrice": 16000,
+    "photoURL": "img/products/h1.jpg",
+    "badge": null,
+    "popular": false,
+    "sortOrder": 16,
+    "description": "Горизонтальная стела. Подходит для одного или двух захоронений.",
+    "components": ["stela-h1", "tumba-std"],
+    "sizes": [
+      {"label": "100×60 см", "price": 0},
+      {"label": "120×70 см", "price": 3000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Гранит серый", "price": 1500}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Серый", "price": 0}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Портрет", "price": 3500}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0},
+      {"label": "Шлифовка", "price": 1500}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000}
+    ]
+  },
+  {
+    "id": "h2",
+    "name": "Горизонтальный «Семейный»",
+    "category": "horizontal",
+    "price": 28000,
+    "basePrice": 28000,
+    "photoURL": "img/products/h2.jpg",
+    "badge": "Семейный",
+    "popular": false,
+    "sortOrder": 17,
+    "description": "Горизонтальный памятник для двоих захоронений с двумя портретами.",
+    "components": ["stela-h2", "tumba-wide"],
+    "sizes": [
+      {"label": "150×80 см", "price": 0},
+      {"label": "180×100 см", "price": 5000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Мрамор белый", "price": 6000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Белый", "price": 2000}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Два портрета", "price": 6000}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000}
+    ]
+  },
+  {
+    "id": "h3",
+    "name": "Горизонтальный «Резной»",
+    "category": "horizontal",
+    "price": 32000,
+    "basePrice": 32000,
+    "photoURL": "img/products/h3.jpg",
+    "badge": null,
+    "popular": false,
+    "sortOrder": 18,
+    "description": "Горизонтальная стела с художественной резьбой и полировкой.",
+    "components": ["stela-h3", "tumba-std"],
+    "sizes": [
+      {"label": "120×70 см", "price": 0},
+      {"label": "150×90 см", "price": 5000}
+    ],
+    "materials": [
+      {"label": "Гранит габбро", "price": 0},
+      {"label": "Гранит красный", "price": 3000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Красный", "price": 2000}
+    ],
+    "engravings": [
+      {"label": "Без гравировки", "price": 0},
+      {"label": "Портрет", "price": 3500},
+      {"label": "Художественная резьба", "price": 6000}
+    ],
+    "finishes": [
+      {"label": "Полировка", "price": 0},
+      {"label": "Золочение", "price": 5000}
+    ],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000}
+    ]
+  },
+
+  {
+    "id": "f1",
     "name": "Ограда профильная",
     "category": "fence",
     "price": 12000,
     "basePrice": 12000,
-    "imageIcon": "fence",
+    "photoURL": "img/products/f1.jpg",
     "badge": null,
     "popular": true,
-    "sizes": [{ "label": "2×1.5 м", "price": 0 }, { "label": "2.5×2 м", "price": 3000 }, { "label": "3×2 м", "price": 5000 }],
-    "materials": [{ "label": "Металл с покраской", "price": 0 }, { "label": "Металл с порошковым покрытием", "price": 3000 }],
-    "services": [{ "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Стандартная ограда из профильной трубы с покраской. Устойчива к коррозии."
+    "sortOrder": 19,
+    "description": "Стандартная ограда из профильной трубы с покраской. Устойчива к коррозии.",
+    "components": [],
+    "sizes": [
+      {"label": "2×1.5 м", "price": 0},
+      {"label": "2.5×2 м", "price": 3000},
+      {"label": "3×2 м", "price": 5000}
+    ],
+    "materials": [
+      {"label": "Металл с покраской", "price": 0},
+      {"label": "Металл с порошковым покрытием", "price": 3000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Зелёный", "price": 1000}
+    ],
+    "engravings": [],
+    "finishes": [],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000}
+    ]
   },
   {
-    "id": 14,
+    "id": "f2",
     "name": "Ограда кованая",
     "category": "fence",
     "price": 25000,
     "basePrice": 25000,
-    "imageIcon": "fence",
+    "photoURL": "img/products/f2.jpg",
     "badge": null,
     "popular": false,
-    "sizes": [{ "label": "2×1.5 м", "price": 0 }, { "label": "2.5×2 м", "price": 4000 }, { "label": "3×2 м", "price": 6000 }],
-    "materials": [{ "label": "Кованый металл", "price": 0 }, { "label": "Кованый металл с позолотой", "price": 5000 }],
-    "services": [{ "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Художественная кованая ограда с декоративными элементами. Ручная работа."
+    "sortOrder": 20,
+    "description": "Художественная кованая ограда с декоративными элементами. Ручная работа.",
+    "components": [],
+    "sizes": [
+      {"label": "2×1.5 м", "price": 0},
+      {"label": "2.5×2 м", "price": 4000},
+      {"label": "3×2 м", "price": 6000}
+    ],
+    "materials": [
+      {"label": "Кованый металл", "price": 0},
+      {"label": "Кованый металл с позолотой", "price": 5000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Коричневый", "price": 1500}
+    ],
+    "engravings": [],
+    "finishes": [],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000}
+    ]
   },
   {
-    "id": 15,
+    "id": "f3",
     "name": "Ограда с цоколем",
-    "category": "combined",
+    "category": "fence",
     "price": 35000,
     "basePrice": 35000,
-    "imageIcon": "fence",
+    "photoURL": "img/products/f3.jpg",
     "badge": null,
     "popular": false,
-    "sizes": [{ "label": "2×1.5 м", "price": 0 }, { "label": "2.5×2 м", "price": 4000 }],
-    "materials": [{ "label": "Металл + Гранит", "price": 0 }, { "label": "Металл + Мрамор", "price": 5000 }],
-    "services": [{ "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Комбинированная ограда с гранитным цоколем и металлическими секциями."
+    "sortOrder": 21,
+    "description": "Комбинированная ограда с гранитным цоколем и металлическими секциями.",
+    "components": ["comp-socle-std"],
+    "sizes": [
+      {"label": "2×1.5 м", "price": 0},
+      {"label": "2.5×2 м", "price": 4000}
+    ],
+    "materials": [
+      {"label": "Металл + Гранит", "price": 0},
+      {"label": "Металл + Мрамор", "price": 5000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0}
+    ],
+    "engravings": [],
+    "finishes": [],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000}
+    ]
   },
+
   {
-    "id": 16,
+    "id": "s1",
     "name": "Цоколь гранитный",
     "category": "socle",
     "price": 22000,
     "basePrice": 22000,
-    "imageIcon": "layer-group",
+    "photoURL": "img/products/s1.jpg",
     "badge": null,
     "popular": true,
-    "sizes": [{ "label": "200×100 см", "price": 0 }, { "label": "240×120 см", "price": 4000 }],
-    "materials": [{ "label": "Гранит полированный", "price": 0 }, { "label": "Гранит шлифованный", "price": 2000 }],
-    "services": [{ "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Гранитный цоколь для оформления участка захоронения. Полировка, возможна инкрустация."
+    "sortOrder": 22,
+    "description": "Гранитный цоколь для оформления участка захоронения. Полировка, возможна инкрустация.",
+    "components": [],
+    "sizes": [
+      {"label": "200×100 см", "price": 0},
+      {"label": "240×120 см", "price": 4000}
+    ],
+    "materials": [
+      {"label": "Гранит полированный", "price": 0},
+      {"label": "Гранит шлифованный", "price": 2000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Серый", "price": 0}
+    ],
+    "engravings": [],
+    "finishes": [],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000}
+    ]
   },
   {
-    "id": 17,
+    "id": "s2",
     "name": "Цоколь мраморный",
     "category": "socle",
     "price": 28000,
     "basePrice": 28000,
-    "imageIcon": "layer-group",
+    "photoURL": "img/products/s2.jpg",
     "badge": null,
     "popular": false,
-    "sizes": [{ "label": "200×100 см", "price": 0 }, { "label": "240×120 см", "price": 5000 }],
-    "materials": [{ "label": "Мрамор полированный", "price": 0 }, { "label": "Мрамор шлифованный", "price": 2000 }],
-    "services": [{ "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Мраморный цоколь. Белый или чёрный мрамор, полированная поверхность."
+    "sortOrder": 23,
+    "description": "Мраморный цоколь. Белый или чёрный мрамор, полированная поверхность.",
+    "components": [],
+    "sizes": [
+      {"label": "200×100 см", "price": 0},
+      {"label": "240×120 см", "price": 5000}
+    ],
+    "materials": [
+      {"label": "Мрамор полированный", "price": 0},
+      {"label": "Мрамор шлифованный", "price": 2000}
+    ],
+    "colors": [
+      {"label": "Белый", "price": 0},
+      {"label": "Чёрный", "price": 2000}
+    ],
+    "engravings": [],
+    "finishes": [],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000}
+    ]
   },
   {
-    "id": 18,
+    "id": "s3",
     "name": "Цоколь с цветником",
-    "category": "combined",
+    "category": "socle",
     "price": 32000,
     "basePrice": 32000,
-    "imageIcon": "layer-group",
+    "photoURL": "img/products/s3.jpg",
     "badge": "Цветник",
     "popular": false,
-    "sizes": [{ "label": "220×120 см", "price": 0 }, { "label": "260×140 см", "price": 5000 }],
-    "materials": [{ "label": "Гранит", "price": 0 }, { "label": "Мрамор", "price": 4000 }],
-    "services": [{ "label": "Установка на кладбище", "price": 5000 }],
-    "description": "Цоколь с интегрированным цветником для комплексного благоустройства."
+    "sortOrder": 24,
+    "description": "Цоколь с интегрированным цветником для комплексного благоустройства.",
+    "components": ["comp-flowerbed"],
+    "sizes": [
+      {"label": "220×120 см", "price": 0},
+      {"label": "260×140 см", "price": 5000}
+    ],
+    "materials": [
+      {"label": "Гранит", "price": 0},
+      {"label": "Мрамор", "price": 4000}
+    ],
+    "colors": [
+      {"label": "Чёрный", "price": 0},
+      {"label": "Белый", "price": 2000}
+    ],
+    "engravings": [],
+    "finishes": [],
+    "services": [
+      {"label": "Установка на кладбище", "price": 5000},
+      {"label": "Доставка по Москве", "price": 2000}
+    ]
   },
+
   {
-    "id": 19,
-    "name": "Благоустройство «Минимал»",
-    "category": "complex",
-    "price": 8000,
-    "basePrice": 8000,
-    "imageIcon": "tree",
-    "badge": null,
-    "popular": false,
-    "sizes": [{ "label": "По желанию", "price": 0 }],
-    "materials": [{ "label": "Гравий, газон", "price": 0 }],
-    "services": [{ "label": "Работа по благоустройству", "price": 3000 }],
-    "description": "Минимальное благоустройство: засыпка гравием, установка бордюров, посадка газона."
-  },
-  {
-    "id": 20,
-    "name": "Благоустройство «Стандарт»",
-    "category": "complex",
-    "price": 15000,
-    "basePrice": 15000,
-    "imageIcon": "tree",
-    "badge": null,
-    "popular": false,
-    "sizes": [{ "label": "По желанию", "price": 0 }],
-    "materials": [{ "label": "Гравий, плитка, растения", "price": 0 }],
-    "services": [{ "label": "Работа по благоустройству", "price": 4000 }],
-    "description": "Благоустройство с гравийной засыпкой, тротуарной плиткой и декоративными растениями."
-  },
-  {
-    "id": 21,
-    "name": "Благоустройство «Премиум»",
-    "category": "complex",
-    "price": 25000,
-    "basePrice": 25000,
-    "imageIcon": "tree",
-    "badge": "Премиум",
-    "popular": false,
-    "sizes": [{ "label": "По желанию", "price": 0 }],
-    "materials": [{ "label": "Гранитная крошка, плитка, туя, цветы", "price": 0 }],
-    "services": [{ "label": "Работа по благоустройству", "price": 5000 }],
-    "description": "Полное благоустройство с гранитной отсыпкой, фигурной плиткой и живыми растениями."
-  },
-  {
-    "id": 22,
-    "name": "Вазон гранитный",
-    "category": "accessories",
-    "price": 4500,
-    "basePrice": 4500,
-    "imageIcon": "candle-holder",
-    "badge": null,
-    "popular": false,
-    "sizes": [{ "label": "30×30 см", "price": 0 }, { "label": "40×40 см", "price": 1500 }],
-    "materials": [{ "label": "Гранит полированный", "price": 0 }, { "label": "Гранит шлифованный", "price": 1000 }],
-    "services": [],
-    "description": "Гранитный вазон для цветов. Полированная поверхность, доступен в разных цветах."
-  },
-  {
-    "id": 23,
-    "name": "Лампада гранитная",
-    "category": "accessories",
-    "price": 3500,
-    "basePrice": 3500,
-    "imageIcon": "candle-holder",
-    "badge": null,
-    "popular": false,
-    "sizes": [{ "label": "15×15 см", "price": 0 }, { "label": "20×20 см", "price": 1000 }],
-    "materials": [{ "label": "Гранит", "price": 0 }, { "label": "Мрамор", "price": 1500 }],
-    "services": [],
-    "description": "Гранитная лампада с отверстием под свечу. Разные формы и цвета."
-  },
-  {
-    "id": 24,
-    "name": "Скамья гранитная",
-    "category": "accessories",
+    "id": "stela-001",
+    "hidden": true,
+    "name": "Стела прямая 120×60",
+    "sku": "STELA-001",
+    "category": "_component",
     "price": 12000,
     "basePrice": 12000,
-    "imageIcon": "candle-holder",
-    "badge": null,
-    "popular": false,
-    "sizes": [{ "label": "120×40 см", "price": 0 }, { "label": "150×40 см", "price": 2000 }],
-    "materials": [{ "label": "Гранит полированный", "price": 0 }, { "label": "Гранит шлифованный", "price": 1500 }],
-    "services": [],
-    "description": "Гранитная скамья для зоны отдыха на кладбище. Устойчивая к погоде."
+    "description": "Базовый компонент: прямая стела из гранита габбро 120×60 см.",
+    "type": "stela"
+  },
+  {
+    "id": "stela-121",
+    "hidden": true,
+    "name": "Стела с аркой 120×60",
+    "sku": "STELA-121",
+    "category": "_component",
+    "price": 14000,
+    "basePrice": 14000,
+    "description": "Базовый компонент: стела с аркообразным верхом 120×60 см.",
+    "type": "stela"
+  },
+  {
+    "id": "stela-005",
+    "hidden": true,
+    "name": "Стела фигурная Элит",
+    "sku": "STELA-005",
+    "category": "_component",
+    "price": 28000,
+    "basePrice": 28000,
+    "description": "Базовый компонент: фигурная стела премиум-класса.",
+    "type": "stela"
+  },
+  {
+    "id": "stela-200",
+    "hidden": true,
+    "name": "Стела Цветок мрамор",
+    "sku": "STELA-200",
+    "category": "_component",
+    "price": 18000,
+    "basePrice": 18000,
+    "description": "Базовый компонент: мраморная стела с цветочным силуэтом.",
+    "type": "stela"
+  },
+  {
+    "id": "stela-204",
+    "hidden": true,
+    "name": "Стела фигурная Резная",
+    "sku": "STELA-204",
+    "category": "_component",
+    "price": 22000,
+    "basePrice": 22000,
+    "description": "Базовый компонент: фигурная стела с резным силуэтом.",
+    "type": "stela"
+  },
+  {
+    "id": "stela-253",
+    "hidden": true,
+    "name": "Стела с крестом",
+    "sku": "STELA-253",
+    "category": "_component",
+    "price": 20000,
+    "basePrice": 20000,
+    "description": "Базовый компонент: стела с объёмным крестом.",
+    "type": "stela"
+  },
+  {
+    "id": "stela-270",
+    "hidden": true,
+    "name": "Стела Модерн фигурная",
+    "sku": "STELA-270",
+    "category": "_component",
+    "price": 24000,
+    "basePrice": 24000,
+    "description": "Базовый компонент: стела с фигурными гранями.",
+    "type": "stela"
+  },
+  {
+    "id": "stela-dbl-001",
+    "hidden": true,
+    "name": "Стела двойная широкая",
+    "sku": "STELA-DBL-001",
+    "category": "_component",
+    "price": 24000,
+    "basePrice": 24000,
+    "description": "Базовый компонент: широкая стела для двух захоронений.",
+    "type": "stela"
+  },
+  {
+    "id": "stela-h1",
+    "hidden": true,
+    "name": "Стела горизонтальная",
+    "sku": "STELA-H1",
+    "category": "_component",
+    "price": 10000,
+    "basePrice": 10000,
+    "description": "Базовый компонент: горизонтальная стела 100×60 см.",
+    "type": "stela"
+  },
+  {
+    "id": "stela-h2",
+    "hidden": true,
+    "name": "Стела горизонтальная широкая",
+    "sku": "STELA-H2",
+    "category": "_component",
+    "price": 18000,
+    "basePrice": 18000,
+    "description": "Базовый компонент: широкая горизонтальная стела 150×80 см.",
+    "type": "stela"
+  },
+  {
+    "id": "stela-h3",
+    "hidden": true,
+    "name": "Стела горизонтальная резная",
+    "sku": "STELA-H3",
+    "category": "_component",
+    "price": 22000,
+    "basePrice": 22000,
+    "description": "Базовый компонент: горизонтальная стела с резьбой.",
+    "type": "stela"
+  },
+  {
+    "id": "tumba-std",
+    "hidden": true,
+    "name": "Тумба стандартная",
+    "sku": "TUMBA-STD",
+    "category": "_component",
+    "price": 6000,
+    "basePrice": 6000,
+    "description": "Базовый компонент: тумба (подставка) стандартная 60×30×15 см. Гранит габбро.",
+    "type": "tumba"
+  },
+  {
+    "id": "tumba-premium",
+    "hidden": true,
+    "name": "Тумба премиум",
+    "sku": "TUMBA-PREM",
+    "category": "_component",
+    "price": 9000,
+    "basePrice": 9000,
+    "description": "Базовый компонент: тумба повышенной прочности 80×35×20 см. Гранит габбро, полировка.",
+    "type": "tumba"
+  },
+  {
+    "id": "tumba-marble",
+    "hidden": true,
+    "name": "Тумба мраморная",
+    "sku": "TUMBA-MRB",
+    "category": "_component",
+    "price": 7000,
+    "basePrice": 7000,
+    "description": "Базовый компонент: тумба из белого мрамора 60×30×15 см.",
+    "type": "tumba"
+  },
+  {
+    "id": "tumba-wide",
+    "hidden": true,
+    "name": "Тумба широкая двойная",
+    "sku": "TUMBA-WIDE",
+    "category": "_component",
+    "price": 10000,
+    "basePrice": 10000,
+    "description": "Базовый компонент: широкая тумба для двойной стелы 100×35×20 см.",
+    "type": "tumba"
+  },
+  {
+    "id": "comp-fence-std",
+    "hidden": true,
+    "name": "Ограда стандартная",
+    "sku": "FENCE-STD",
+    "category": "_component",
+    "price": 15000,
+    "basePrice": 15000,
+    "description": "Компонент комплекса: металлическая ограда с порошковым покрытием 2×1.5 м.",
+    "type": "fence"
+  },
+  {
+    "id": "comp-socle-std",
+    "hidden": true,
+    "name": "Цоколь гранитный",
+    "sku": "SOCLE-STD",
+    "category": "_component",
+    "price": 22000,
+    "basePrice": 22000,
+    "description": "Компонент комплекса: гранитный цоколь 200×100 см, полировка.",
+    "type": "socle"
+  },
+  {
+    "id": "comp-flowerbed",
+    "hidden": true,
+    "name": "Цветник гранитный",
+    "sku": "FLOWER-STD",
+    "category": "_component",
+    "price": 8000,
+    "basePrice": 8000,
+    "description": "Компонент комплекса: гранитный цветник 60×40 см.",
+    "type": "flowerbed"
   }
 ]

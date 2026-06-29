@@ -2,7 +2,7 @@
     'use strict';
 
     var CONFIG = {
-        siteName:  'СонДуши.рф',
+        siteName:  'МосПамять.рф',
         phone:     '+79362200900',
         phoneDisplay: '+7 (936) 2200-900',
         tgLink:    'https://t.me/ваш_телеграм',
@@ -85,9 +85,9 @@
             '<div class="header-inner">' +
               '<a href="' + prefix + 'index.html" class="logo">' +
                 '<div class="logo-icon">' +
-                  '<img src="' + img('logo.jpg') + '" alt="Сон Души" ' +
-                       'style="width:100%;height:100%;object-fit:cover;display:block;border-radius:6px;" ' +
-                       'onerror="this.style.display=\'none\'">' +
+                  '<img src="' + img('моспамятьрф-04.svg') + '" alt="МосПамять.рф" ' +
+                       'style="width:100%;height:100%;object-fit:contain;display:block;" ' +
+                       'onerror="this.style.display=\'none\'; this.parentElement.textContent=\'МП\'">' +
                 '</div>' +
                 '<div class="logo-text">' +
                   '<div class="logo-name">' + CONFIG.siteName + '</div>' +
@@ -115,6 +115,12 @@
               '<div class="mobile-nav-item" id="catalogToggle" onclick="toggleCatalogDropdown()">' +
                 '<i class="fas fa-th-list"></i>' +
                 '<span>Каталог</span>' +
+              '</div>' +
+
+              /* Логотип между кнопками */
+              '<div class="mobile-logo-divider">' +
+                '<img src="' + img('моспамятьрф-04.svg') + '" alt="МосПамять" width="80" height="40" loading="lazy" ' +
+                     'onerror="this.style.display=\'none\'">' +
               '</div>' +
 
               /* Кнопка "Меню" */
@@ -182,8 +188,8 @@
               '<div class="footer-brand">' +
                 '<div class="logo" style="margin-bottom:14px">' +
                   '<div class="logo-icon">' +
-                    '<img src="' + img('logo.jpg') + '" alt="Сон Души" ' +
-                         'style="width:100%;height:100%;object-fit:cover;display:block;border-radius:6px;" ' +
+                    '<img src="' + img('моспамятьрф-04.svg') + '" alt="МосПамять.рф" ' +
+                         'style="width:100%;height:100%;object-fit:contain;display:block;" ' +
                          'onerror="this.style.display=\'none\'">' +
                   '</div>' +
                   '<div class="logo-text"><div class="logo-name">' + CONFIG.siteName + '</div></div>' +
@@ -204,7 +210,7 @@
                 '<h4>Контакты</h4>' +
                 '<ul>' +
                   '<li><a href="tel:' + CONFIG.phone + '">' + CONFIG.phoneDisplay + '</a></li>' +
-                  '<li><a href="#" onclick="event.preventDefault();openEmailModal&&openEmailModal()">info@son-dushi.ru</a></li>' +
+                  '<li><a href="#" onclick="event.preventDefault();openEmailModal&&openEmailModal()">info@mospamyat.ru</a></li>' +
                 '</ul>' +
                 '<h4 style="margin-top:16px">Мессенджеры</h4>' +
                 '<div class="footer-social">' + socialIcons(30) + '</div>' +
@@ -224,7 +230,6 @@
         var menuDropdown = document.getElementById('menuDropdown');
         if (!dropdown) return;
 
-        // Закрываем меню, если открыто
         if (menuDropdown && menuDropdown.classList.contains('open')) {
             menuDropdown.classList.remove('open');
         }
@@ -238,7 +243,6 @@
         var catalogDropdown = document.getElementById('catalogDropdown');
         if (!menuDropdown) return;
 
-        // Закрываем каталог, если открыт
         if (catalogDropdown && catalogDropdown.classList.contains('open')) {
             catalogDropdown.classList.remove('open');
         }
@@ -290,7 +294,7 @@
     display: flex;
     align-items: center;
     gap: 6px;
-    margin-left: 8px;
+    margin-left: 12px;
 }
 .social-icon {
     display: inline-flex;
@@ -354,6 +358,43 @@
     color: var(--gold-light);
 }
 
+/* ===== ЛОГОТИП ===== */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #fff;
+    flex-shrink: 0;
+}
+.logo-icon {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+.logo-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.logo-name {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: .5px;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+}
+.logo-sub {
+    font-size: 11px;
+    opacity: .7;
+    font-weight: 400;
+}
+
 /* ─── МОБИЛЬНОЕ НИЖНЕЕ МЕНЮ ─── */
 .mobile-bottom-nav {
     display: none;
@@ -401,6 +442,22 @@
 .mobile-nav-item span {
     font-size: 10px;
     letter-spacing: 0.3px;
+}
+
+.mobile-logo-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    flex-shrink: 0;
+    pointer-events: none;
+}
+.mobile-logo-divider img {
+    display: block;
+    width: 80px;
+    height: 40px;
+    object-fit: contain;
+    opacity: 0.8;
 }
 
 /* ─── ВЫПАДАЮЩИЕ МЕНЮ (снизу вверх) ─── */
@@ -540,22 +597,28 @@
     .header-inner {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center !important;
         padding: 8px 16px;
         min-height: 56px;
+        gap: 0;
     }
     .logo {
         margin: 0 auto;
+        gap: 8px;
+        justify-content: center;
+        flex: 1;
+    }
+    .logo-icon {
+        width: 70px;
+        height: 35px;
+        flex-shrink: 0;
+    }
+    .logo-name {
+        font-size: 14px !important;
+        white-space: nowrap;
     }
     .logo-text .logo-sub {
         display: none;
-    }
-    .logo-icon {
-        width: 36px !important;
-        height: 36px !important;
-    }
-    .logo-name {
-        font-size: 16px !important;
     }
 
     .desktop-nav {
@@ -582,28 +645,36 @@
 }
 
 @media (max-width: 480px) {
-    .logo-name {
-        font-size: 14px !important;
-    }
-    .logo-icon {
-        width: 30px !important;
-        height: 30px !important;
-    }
     .header-inner {
         padding: 6px 12px;
         min-height: 48px;
     }
+    .logo-icon {
+        width: 55px;
+        height: 28px;
+    }
+    .logo-name {
+        font-size: 12px !important;
+    }
+    .logo {
+        gap: 6px;
+    }
+
     .mobile-bottom-nav {
         padding: 4px 0 env(safe-area-inset-bottom, 6px);
     }
     .mobile-nav-item {
-        padding: 2px 12px;
+        padding: 2px 8px;
     }
     .mobile-nav-item i {
         font-size: 20px;
     }
     .mobile-nav-item span {
         font-size: 9px;
+    }
+    .mobile-logo-divider img {
+        width: 55px;
+        height: 28px;
     }
     .mobile-dropdown {
         bottom: 56px;
