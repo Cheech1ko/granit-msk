@@ -1068,14 +1068,6 @@
                 specRows.push({ label: 'Размеры', value: sizeLabels });
             }
 
-            if (product.components && product.components.length) {
-                var compNames = product.components.map(function(cid) {
-                    var comp = allProducts.find(function(p) { return p.id === cid; });
-                    return comp ? comp.name : cid;
-                }).join(', ');
-                specRows.push({ label: 'Состав', value: compNames });
-            }
-
             var specsHtml = '';
             if (specRows.length) {
                 specsHtml = '<div class="specs">' +
