@@ -1052,15 +1052,10 @@
             var thumbsHtml = '';
             if (photoUrl) {
                 thumbsHtml += '<div class="thumb active"><img src="' + photoUrl + '" alt="Фото 1" /></div>';
-                thumbsHtml += '<div class="thumb"><i class="fas fa-camera"></i></div>';
-                thumbsHtml += '<div class="thumb"><i class="fas fa-camera"></i></div>';
             } else {
                 thumbsHtml += '<div class="thumb active"><i class="fas fa-camera"></i></div>';
-                thumbsHtml += '<div class="thumb"><i class="fas fa-camera"></i></div>';
-                thumbsHtml += '<div class="thumb"><i class="fas fa-camera"></i></div>';
             }
 
-            // ── ХАРАКТЕРИСТИКИ (только Размеры и Состав) ──
             var specRows = [];
 
             if (product.sizes && product.sizes.length) {
