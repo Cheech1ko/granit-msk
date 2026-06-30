@@ -12,7 +12,7 @@
 
             var img = document.createElement('img');
             img.src   = LOGO_SRC;
-            img.alt   = 'МосПамять.рф';
+            img.alt   = 'ГраньВремени.рф';
             img.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;';
             img.onerror = function() { this.style.display = 'none'; };
             el.appendChild(img);

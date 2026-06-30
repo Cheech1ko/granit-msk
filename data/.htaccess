@@ -1,0 +1,12 @@
+# Запретить доступ ко всем файлам
+Deny from all
+
+# Запретить доступ к JSON напрямую
+<Files "*.json">
+    Deny from all
+</Files>
+
+# Разрешить доступ только к index.php (если он есть)
+<Files "index.php">
+    Allow from all
+</Files>

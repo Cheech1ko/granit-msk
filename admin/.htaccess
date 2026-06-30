@@ -1,0 +1,46 @@
+# Запрет прямого доступа к PHP-файлам из других скриптов
+Options -Indexes
+
+# Разрешить только index.php, всё остальное запрещено
+<FilesMatch "^(?!index\.php$).*$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Защита от брутфорса: ограничить методы
+<LimitExcept GET POST>
+    Deny from all
+</LimitExcept>
+
+# 4. Запретить доступ к любым скрытым файлам (.htaccess, .env, .git)
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+
+# 5. Заголовки безопасности
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "DENY"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "no-referrer-when-downgrade"
+</IfModule>
+
+# 6. Базовая защита от XSS в GET-параметрах
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{QUERY_STRING} (alert|prompt|confirm|eval|setInterval|setTimeout|document\.cookie) [NC,OR]
+    RewriteCond %{QUERY_STRING} (onerror|onload|onclick|onmouseover|onfocus) [NC,OR]
+    RewriteCond %{QUERY_STRING} (<|%3C).*(>|%3E) [NC]
+    RewriteRule .* - [F,L]
+</IfModule>
+
+# 7. Базовая защита от XSS и инъекций (без ложных срабатываний)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Блокировка явных XSS-попыток в GET-параметрах
+    RewriteCond %{QUERY_STRING} (alert|prompt|confirm|eval|setInterval|setTimeout|document\.cookie) [NC,OR]
+    RewriteCond %{QUERY_STRING} (onerror|onload|onclick|onmouseover|onfocus) [NC,OR]
+    RewriteCond %{QUERY_STRING} (<|%3C).*(>|%3E) [NC]
+    RewriteRule .* - [F,L]
+</IfModule>

@@ -73,7 +73,7 @@ function closeEmailModalOutside(e) {
 }
 
 function copyEmail() {
-    var email = 'info@granitpenza.ru';
+    var email = 'info@granvremeni.ru';
     navigator.clipboard.writeText(email).then(function() {
         var msg = document.getElementById('copyMessage');
         if (msg) {
@@ -96,7 +96,7 @@ function copyEmail() {
 }
 
 function openGmail() {
-    window.open('https://mail.google.com/mail/?view=cm&fs=1&to=info@granitpenza.ru', '_blank');
+    window.open('https://mail.google.com/mail/?view=cm&fs=1&to=info@granvremeni.ru', '_blank');
     closeEmailModal();
 }
 

@@ -2,7 +2,7 @@
     'use strict';
 
     var CONFIG = {
-        siteName:  'МосПамять.рф',
+        siteName:  'ГраньВремени.рф',
         phone:     '+79362200900',
         phoneDisplay: '+7 (936) 2200-900',
         tgLink:    'https://t.me/mospamyat',
@@ -227,7 +227,7 @@
                 '<h4>Контакты</h4>' +
                 '<ul>' +
                   '<li><a href="tel:' + CONFIG.phone + '">' + CONFIG.phoneDisplay + '</a></li>' +
-                  '<li><a href="#" onclick="event.preventDefault();openEmailModal&&openEmailModal()">info@mospamyat.ru</a></li>' +
+                  '<li><a href="#" onclick="event.preventDefault();openEmailModal&&openEmailModal()">info@granvremeni.ru</a></li>' +
                 '</ul>' +
                 '<h4 style="margin-top:16px">Мессенджеры</h4>' +
                 '<div class="footer-social">' + socialIcons(30) + '</div>' +
