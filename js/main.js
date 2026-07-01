@@ -168,7 +168,7 @@ function submitForm(formId, successId) {
         return;
     }
 
-    fetch('https://formspree.io/f/mwvdpbap', {
+    fetch('https://formspree.io/f/mojokdop', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -243,7 +243,7 @@ function sendCallbackRequest() {
         return;
     }
 
-    fetch('https://formspree.io/f/mwvdpbap', {
+    fetch('https://formspree.io/f/mojokdop', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, phone, time, cemetery, source: 'Выезд менеджера' })
